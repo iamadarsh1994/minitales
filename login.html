@@ -1,0 +1,26 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="/client/styles.css" />
+  </head>
+  <body>
+    <div class="sign-form" style="display: flex; justify-content: center; align-items: center;">
+      <form action="http://localhost:3000/login" method="POST">
+        <label for="username">Username:</label>
+        <input
+          type="text"
+          placeholder="username/email"
+          autocomplete="given-name"
+          name="username"
+        />
+        <label for="password">Password:</label>
+        <input
+          type="password"
+          placeholder="password"
+          autocomplete="off"
+          name="password"
+        />
+        <button type="submit" id="button"><a href="/client/dashboard.html">Login</a></button>
+      </form>
+    </div>
+  </body>
+</html>

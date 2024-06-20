@@ -1,0 +1,44 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="/client/styles.css" />
+  </head>
+  <body>
+    <!-- <div class="sign-form"> -->
+    <form action="http://localhost:3000/signup" method="POST">
+      <label for="fullname">Full Name:</label>
+      <input
+        type="text"
+        name="fullname"
+        id="fullname"
+        placeholder="Full Name"
+        autocomplete="given-name"
+      />
+      <!-- <label for="email">Email id:</label>
+    <input
+      type="email"
+      id="email"
+      placeholder="Email@domain.com"
+      autocomplete="off"
+    /> -->
+      <!-- <label for="number">Mobile Number:</label>
+    <input
+      type="number"
+      name=""
+      id="number"
+      placeholder="Number"
+      autocomplete="off"
+    /> -->
+      <input type="text" name="username" placeholder="username" />
+      <label for="password">Create a Password:</label>
+      <input
+        type="password"
+        name="password"
+        placeholder="Password"
+        autocomplete="off"
+      />
+      <button type="submit">Sign Up</button>
+    </form>
+
+    <!-- </div> -->
+  </body>
+</html>
